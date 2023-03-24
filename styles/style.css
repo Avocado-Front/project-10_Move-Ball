@@ -1,0 +1,213 @@
+body{
+    background-color: #1b1919;
+}
+
+.box1{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    position: absolute;
+    background-color: #e9dbdb;
+    animation: 5s linear 2s infinite alternate cont1;
+}
+.box2{
+        border-radius: 50%;
+    width:30px;
+    height:30px;
+    position: absolute;
+    background-color: #ff0000;
+    animation: 6s linear 2s infinite alternate cont2;
+}
+.box3{
+        border-radius: 50%;
+    width:40px;
+    height:40px;
+    position: absolute;
+    background-color: #bbff00;
+    animation: 6s linear 2s infinite alternate cont3;
+}
+.box4{
+        border-radius: 50%;
+    width:40px;
+    height:40px;
+    position: absolute;
+    background-color: #00d9ff;
+    animation: 6s linear 2s infinite alternate cont4;
+}
+.box5{
+        border-radius: 50%;
+    width:80px;
+    height:80px;
+    position: absolute;
+    background-color: #0022ff;
+    animation: 3s linear 1s infinite alternate cont4;
+}
+.box6{
+        border-radius: 50%;
+    width:60px;
+    height:60px;
+    position: absolute;
+    background-color: #7072e3;
+    animation: 3s linear 1s infinite alternate cont5;
+}
+.box7{
+        border-radius: 50%;
+    width:60px;
+    height:60px;
+    position: absolute;
+    background-color: #81ff53;
+    animation: 5s linear 1s infinite alternate cont6;
+}
+.box8{
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    position: absolute;
+    background-color: #e9dddb;
+    animation: 6s linear 1s infinite alternate cont7;
+}
+.box9{
+        border-radius: 50%;
+    width:80px;
+    height:80px;
+    position: absolute;
+    background-color: #357b82;
+    animation: 8s linear 1s infinite alternate cont8;
+}
+.box10{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    position: absolute;
+    background-color: #0c4ddb;
+    animation: 5s linear 1s infinite alternate cont9;
+}
+
+@keyframes cont1{
+    0%{
+        transform: translate(-100px,60px)
+    }
+    50%{
+        transform: translate(100px,1000px)
+    }
+    75%{
+        transform: translate(450px,-200px)
+    }
+    100%{
+        transform: translate(10000px,1000px)
+    }
+}
+@keyframes cont2{
+    0%{
+        transform: translate(-100px,-60px)
+    }
+    50%{
+        transform: translate(1100px,100px)
+    }
+    75%{
+        transform: translate(1450px,200px)
+    }
+    100%{
+        transform: translate(300px,1000px)
+    }
+}
+@keyframes cont3{
+    0%{
+        transform: translate(2100px,2000px)
+    }
+    50%{
+        transform: translate(1100px,100px)
+    }
+    75%{
+        transform: translate(150px,20px)
+    }
+    100%{
+        transform: translate(3000px,1000px)
+    }
+}
+@keyframes cont4{
+    0%{
+        transform: translate(-100px,60px)
+    }
+    50%{
+        transform: translate(900px,500px)
+    }
+    75%{
+        transform: translate(1450px,2000px)
+    }
+    100%{
+        transform: translate(3000px,1000px)
+    }
+}
+@keyframes cont5{
+    0%{
+        transform: translate(-400px,-60px)
+    }
+    50%{
+        transform: translate(1100px,1100px)
+    }
+    75%{
+        transform: translate(100px,200px)
+    }
+    100%{
+        transform: translate(300px,1000px)
+    }
+}
+@keyframes cont6{
+    0%{
+        transform: translate(200px,-60px)
+    }
+    50%{
+        transform: translate(1100px,100px)
+    }
+    75%{
+        transform: translate(150px,200px)
+    }
+    100%{
+        transform: translate(3000px,100px)
+    }
+}
+@keyframes cont7{
+    0%{
+        transform: translate(1000px,-60px)
+    }
+    50%{
+        transform: translate(1100px,100px)
+    }
+    75%{
+        transform: translate(150px,2000px)
+    }
+    100%{
+        transform: translate(300px,100px)
+    }
+}
+@keyframes cont8{
+    0%{
+        transform: translate(-100px,-60px)
+    }
+    50%{
+        transform: translate(700px,100px)
+    }
+    75%{
+        transform: translate(1650px,800px)
+    }
+    100%{
+        transform: translate(3000px,100px)
+    }
+}
+@keyframes cont9{
+    0%{
+        transform: translate(-100px,-60px)
+    }
+    50%{
+        transform: translate(100px,500px)
+    }
+    75%{
+        transform: translate(650px,2000px)
+    }
+    100%{
+        transform: translate(300px,1000px)
+    }
+}
+
+
